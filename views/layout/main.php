@@ -23,7 +23,7 @@
           <a class="brand" href="#">My MVC Site</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
+              <li class="active"><a href="?">Home</a></li>
        <li><a href="#">About</a></li>
                      
 <li class="dropdown">
