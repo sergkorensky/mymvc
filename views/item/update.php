@@ -4,7 +4,8 @@
 <?php 
 
 $root=dirname($_SERVER['SCRIPT_FILENAME']);
-$webroot='http://'.str_replace($_SERVER['DOCUMENT_ROOT'], $_SERVER['SERVER_NAME'].'/',$root);
+
+$webroot=dirname($_SERVER['PHP_SELF']);
 
 ?>
 

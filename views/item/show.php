@@ -4,9 +4,9 @@
 <?php 
 
 $root=dirname($_SERVER['SCRIPT_FILENAME']);
-$webroot='http://'.str_replace($_SERVER['DOCUMENT_ROOT'], $_SERVER['SERVER_NAME'].'/',$root);
+//$webroot='http://'.str_replace($_SERVER['DOCUMENT_ROOT'], $_SERVER['SERVER_NAME'].'/',$root);
 
-//$_SERVER[REQUEST_URI];
+$webroot=dirname($_SERVER['PHP_SELF']);
 
 ?>
 <input type='hidden' name='id' value="<?php echo $model->id;   ?>"  >
